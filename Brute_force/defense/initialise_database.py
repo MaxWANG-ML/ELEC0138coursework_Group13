@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS users (
 )
 ''')
 
-# user data
+# user data you can change this one to receive an email verification code
 users = [
     ("admin", "123456", "uceez14@ucl.ac.uk"),
     ("Kitty", "234567", "uceez14@ucl.ac.uk")
