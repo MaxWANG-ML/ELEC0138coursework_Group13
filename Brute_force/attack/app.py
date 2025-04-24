@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request, redirect, session
 import sqlite3
 #username = Kitty
@@ -24,7 +23,7 @@ def login():
         user_password = get_user(username)
         if user_password and user_password == password:
             session['user'] = username
-            return redirect('/home')  # 登录成功跳转这里
+            return redirect('/home')  
         else:
             return render_template('login.html', error="incorrect username or password")
     return render_template('login.html')
