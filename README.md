@@ -1,5 +1,5 @@
 # ELEC0138coursework_Group13
-This is a company employee information query system which includes a login interface and a query interface.  
+This is a company employee information query system which includes a login interface and a query interface created by 24210713, 24034383, 24055540, .  
 
 We simulated brute-force cracking, email phishing, DoS attacks and provided corresponding defense measures including rate limiting, multi-factor authentication, email filtering, SYN proxy, etc.  
 
