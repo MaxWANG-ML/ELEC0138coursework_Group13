@@ -3,16 +3,8 @@ import threading
 import random
 import string
 
-# Target URL (your Flask login endpoint)
 # target_url = "http://127.0.0.1:5000/login"
 target_url = "http://127.0.0.1:5000/"
-
-
-# Forged usernames and passwords (now using random usernames and passwords)
-# login_data = {
-#     "username": "admin",
-#     "password": "123456"
-# }
 
 # Generate random usernames and passwords
 def generate_random_credentials():
