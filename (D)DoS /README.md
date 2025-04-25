@@ -6,6 +6,6 @@ Use Wireshark to compare server responses—if 200 OK responses are limited and 
 
 2.SYN flooding attack and defense  
 Attack: run the Flask server(app.py) and simulate the attack using either hping3 from a virtual machine  
-or the local script SYN_flooding.py.  
+or the local python script SYN_flooding.py.  
 Defense: run anti_ddos.py with administrator privileges to activate the defense.  
 The effectiveness can be verified by checking whether the script drops connections that do not complete the TCP handshake (i.e., no ACK received).
