@@ -35,7 +35,7 @@ def login():
         user_password = get_user(username)
         if user_password and user_password == password:
             session['user'] = username
-            return redirect('/home')  # Log in successfully and jump here
+            return redirect('/home') 
         else:
             return render_template('login.html', error="incorrect username or password")
     return render_template('login.html')
